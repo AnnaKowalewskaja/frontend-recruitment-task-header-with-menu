@@ -5,16 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aurora BOX</title>
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <header class="header">
         <div class="header__top ">
+<div class="container links">
 
+<div class="links__left">
+    <a class="links__link font-size_small transition" href="tel:293939098"> <img src="./img/call.png" alt="Call" class="links__img">  293 939 098</a>
+    <a class="links__link font-size_small transition" href="mailto:kontakt@aurorabox.pl"><img src="./img/message.png" alt="Mail" class="links__img"> kontakt@aurorabox.pl</a>
+</div>
+<!-- /.top__left -->
+
+<div class="links__right">
+    <button class="links__button font-size_small transition"><img src="./img/lock.png" alt="Zaloguj" class="links__img lock_width"> Zaloguj się</button>
+    <button class="links__button font-size_small transition"><img src="./img/konto.png" alt="Konto" class="links__img"> Załóż konto</button>
+</div>
+<!-- /.top__right -->
+</div>
+<!-- /.container -->
         </div>
         <!-- /.header__top -->
 
-        <div class="header__logo"></div>
+        <div class="header__logo">
+            <div class="container">
+                <div class="logo">
+                   <img src="./img/logo__aurora_box.png" alt="logo" class="logo__img">
+                </div>
+                <!-- /.logo -->
+
+                <div class="search ">
+                    <form class="search__form ">
+                        <input class="search__input" type="text" placeholder="Co chcesz kupić?">
+                        <button class="search__submit transition" type="submit" ><img src="./img/icon__lens.png" alt="icon:search" class="search__img"></button>
+                        </form>
+                </div>
+                <!-- /.search -->
+
+                <div class="basket">
+<div class="basket__block">
+<img src="./img/icon__basket.png" alt="basket" class="basket__img">
+<div class="count count__circle"><span class="count__text">2</span></div>
+<!-- /.count -->
+</div>
+<!-- /.basket__block -->
+
+<span class="basket__text">Twój koszyk </span>
+                </div>
+                <!-- /.basket -->
+            </div>
+            <!-- /.container -->
+        </div>
         <!-- /.header__logo -->
 
         <div class="header__search"></div>
@@ -28,5 +70,7 @@
 
 
     </header>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>

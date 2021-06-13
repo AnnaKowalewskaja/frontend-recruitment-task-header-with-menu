@@ -1,0 +1,32 @@
+{
+  "name": "testowe",
+  "version": "1.0.0",
+  "description": "<img  src=\"https://github.com/auroracreation/frontend-recruitment-task-header-with-menu/blob/master/logo.png\"  alt=\"Aurora Creation logo\"/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp styles watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaKowalewskaja/frontend-recruitment-task-header-with-menu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaKowalewskaja/frontend-recruitment-task-header-with-menu/issues"
+  },
+  "homepage": "https://github.com/AnnaKowalewskaja/frontend-recruitment-task-header-with-menu#readme",
+  "keywords": [],
+  
+  "dependencies": {
+    "gulp-sass": "^4.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
+
