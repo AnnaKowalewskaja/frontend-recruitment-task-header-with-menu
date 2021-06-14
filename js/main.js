@@ -1,6 +1,5 @@
 const searchForm = document.querySelector(".search__form");
-const menu = document.querySelector(".nav__menu");
-const menuCloseButton = document.querySelector(".menu__close");
+
 
 searchForm.addEventListener('mousemove', ()=>{
     searchForm.classList.add('search__form_active');
@@ -9,8 +8,31 @@ searchForm.addEventListener('mousemove', ()=>{
 
 searchForm.addEventListener('mouseout', ()=>{
     searchForm.classList.remove('search__form_active');
-   
+    itemNav.classList.remove('transition');
 });
+
+
+const itemLinkMenu1 = document.querySelector(".item__link-menu");
+const itemNav1 = document.querySelector(".item__nav");
+
+itemLinkMenu.addEventListener('click', ()=>{
+    itemNav.classList.remove('item__nav-none');
+    
+});
+
+
+
+
+
+
+
+
+const menuCloseButton = document.querySelector(".menu__close");
+
+
+
+
+
 /*
 menuCloseButton.addEventListener('click', ()=>{
     menu.classList.remove('is-active');
